@@ -19,7 +19,7 @@ function summarizeContent() {
     contentType: 'application/json',
     muteHttpExceptions: true,
     payload: {},
-    headers: {Authorization: "Bearer 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"},
+    headers: {Authorization: "Bearer <<Token>>"},
   }
 
   for (let content = 2; content <= numberOfContents ; content++ ) {
